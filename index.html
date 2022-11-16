@@ -4,44 +4,372 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <h1>ID Developmental Blog</h1>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="week01">
+          <button
+            class="accordion-button"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapse01"
+            aria-expanded="true"
+            aria-controls="collapse01"
+          >
+            Week 01 Blog
+          </button>
+        </h2>
+        <div
+          id="collapse01"
+          class="accordion-collapse collapse show"
+          aria-labelledby="week01"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <h4>In this week, we learnt various html elements:</h4>
+            <ul>
+              <li>html - Defines the root of an HTML document</li>
+              <li>head - Contains metadata/information for the document</li>
+              <li>body - Defines the document's body</li>
+              <li>
+                h1 to h6 - the various heading from biggest to smallest font
+                size
+              </li>
+              <li>p - paragraph</li>
+              <li>em - emphasis the text (italic)</li>
+              <li>strong - bold the text</li>
+              <li>ul - create an unordered list</li>
+              <li>ol - create an ordered list</li>
+              <li>li - define each list element</li>
+              <li>img - include an image</li>
+              <li>a - specify the hyperlink</li>
+              <li>span - define a section of document (inline)</li>
+              <li>
+                div - define a section of document (block), usually used for a
+                bigger section such as a new chapter
+              </li>
+              <li>table - create a table (together with tr, th, td)</li>
+              <li>
+                hr - horizontal rule, also defines a thematic change in the
+                content
+              </li>
+              <li>iframe - defines an inline frame</li>
+            </ul>
+            <h5 class="homework">Homework for the week:</h5>
+            <ol>
+              <li>my recipe card</li>
+              <li>group discussion - what makes a good website</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="week02">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapse02"
+            aria-expanded="true"
+            aria-controls="collapse02"
+          >
+            Week 02 Blog
+          </button>
+        </h2>
+        <div
+          id="collapse02"
+          class="accordion-collapse collapse"
+          aria-labelledby="week02"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <h4>In this week, we learnt</h4>
+            <h5>1. semantic html elements:</h5>
+            <ul>
+              <li>
+                header - represents a container for introductory content or a
+                set of navigational links. Typically contains: one or more
+                heading elements, h1 to h6, logo or icon, authorship information
+              </li>
+              <li>
+                footer - Defines a footer for a document or section, Typically
+                contains: authorship information, copyright information, contact
+                information, sitemap, back to top links, related documents
+              </li>
+              <li>nav - defines navigation links</li>
+              <li>article - defines an article</li>
+              <li>
+                aside - for content that is indirectly related to the main
+                content (sidebars)
+              </li>
+              <li>section - defines a section in a document</li>
+              <li>
+                details - Defines additional details that the user can view or
+                hide
+              </li>
+              <li>
+                figure - Specifies self-contained content, like illustrations,
+                diagrams, photos, code listings, etc
+              </li>
+              <li>form - Defines an HTML form for user input</li>
+              <li>mark - Defines marked/highlighted text</li>
+              <li>main - Specifies the main content of a document</li>
+            </ul>
+            <h5>2. css:</h5>
+            <ul>
+              <li>
+                CSS - 3 ways to include styles in HTML
+                <ul>
+                  <li>Inline style</li>
+                  <li>Embedded style element in head section</li>
+                  <li>External Stylesheet</li>
+                </ul>
+              </li>
+              <li>Element selector</li>
+              <li>ID selector</li>
+              <li>Class selector</li>
+              <li>Pseudoclass selector – depending on the state of the link</li>
+              <li>External font</li>
+            </ul>
+
+            <h5 class="homework">Homework for the week:</h5>
+            <ol>
+              <li>CA1, CA2 - slide 15 : semantic markup</li>
+              <li>CA3 - slide 34 - CSS</li>
+              <li>CA4 - slide 56 : CSS - id and class</li>
+              <li>CA5 - slide 57 : CSS - google fonts</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="week03">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapse03"
+            aria-expanded="true"
+            aria-controls="collapse03"
+          >
+            Week 03 Blog
+          </button>
+        </h2>
+        <div
+          id="collapse03"
+          class="accordion-collapse collapse"
+          aria-labelledby="week03"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <h4>In this week, we learnt</h4>
+            <h5>1. Form element – to create an HTML form for user input</h5>
+            <ul>
+              <li>
+                Input element: for user input, display in many ways, depending
+                on the type attribute (text, radio (use same name for same
+                group), checkbox, email, password, date, time, file, submit,
+                button, etc)
+              </li>
+              <li>Label element: defines a label for the form elements</li>
+              <li>
+                Select element: defines a drop-down list (use together with
+                option elements that define the option within the drop-down
+                list)
+              </li>
+              <li>
+                Textarea element: defines a multi-line input field (row and
+                column attributes to specify the visible number of lines and
+                width in a text area)
+              </li>
+              <li>Button element: defines a clickable button</li>
+            </ul>
+            <h5>2. CSS Selectors</h5>
+            <ul><li>Simple selectors (select elements based on name, id, class)</li>
+            <li>Combinator selectors (select elements based on a specific relationship between them)</li>
+          <li>Pseudo-class selectors (select elements based on a certain state)</li>  
+          <li>Pseudo-elements selectors (select and style a part of an element)</li>
+          <li>Attribute selectors (select elements based on an attribute or attribute value)</li>
+        </ul>
+        <h5>3. Inheritance, specificity, cascading, !important</h5>
+            <h5>4. Box Model</h5>
+            <p>content -> padding -> border -> margin</p>
+            <h5>5. Media Queries</h5>
+            <p>for small device: @mdeia (min-width: 576px) { <em>css rule</em>}</p>
+            
+            <h5>6. Positioning</h5>
+            <ul>
+              <li>position: relative, absolute, fixed</li>
+              <li>
+                z-index (work ONLY on elements with a position property set to absolute, fixed, or relative)</li>
+                <li>An element with a higher z-index value overlaps an element with a lower z-index value.</li>
+                <li>Positioned elements have a z-index of 0 by default.</li>
+                </li>
+            </ul>
+            <h5>7. Flexbox</h5>
+            <p>To start using the Flexbox model, you need to first define a flex container by setting the display property to flex</p>
+            <p>The flex container properties are:</p>
+            <ul>
+              <li>flex-direction – defines the direction that the container stacks the flex items (row, row-reverse, column, column-reverse)</li>
+            <li>flex-wrap - specifies whether the flex items should wrap or not (wrap, nowrap – default, wrap-reverse)</li>
+          <li>flex-flow - shorthand for setting both flex-direction and flex-wrap</li> 
+          <li>justify-content - used to align the flex items (center, flex-start – default, flex-end, space-around, space-between)
+          </li><li>align-items - used to align the flex items (center, flex-start, flex-end, stretch, baseline)
+          </li><li>align-content - used to align the flex lines.
+            </li> 
+          </ul>
+            <h5>8. Wireframes</h5>
+            <ul></ul>
+            <h5 class="homework">Homework for the week:</h5>
+            <ol>
+              <li>CA1 - Forms</li>
+              <li>CA2 - Z-index</li>
+              <li>CA3 - Flexboxes</li>
+              <li>CA4 - Responsive about me page</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="week04">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapse04"
+            aria-expanded="true"
+            aria-controls="collapse04"
+          >
+            Week 04 Blog
+          </button>
+        </h2>
+        <div
+          id="collapse04"
+          class="accordion-collapse collapse"
+          aria-labelledby="week04"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <h4>In this week, we learnt Responsive Image</h4>
+            <ul>
+              <li>
+                width property sets the width of the element (set height to
+                automatically adjust the height to allow its content to be
+                displayed correctly)
+              </li>
+              <li>
+                max-width property defines the maximum width of an element
+              </li>
+              <li>
+                background-size property specifies the size of the background
+                images.
+                <ul>
+                  <li>
+                    Auto: Default value. The background image is displayed in
+                    its original size.
+                  </li>
+                  <li>
+                    cover: Resize the background image to cover the entire
+                    container, even if it has to stretch the image or cut a
+                    little bit off one of the edges
+                  </li>
+                  <li>
+                    contain: Resize the background image to make sure the image
+                    is fully visible
+                  </li>
+                </ul>
+              </li>
+              <li>use srcset for different resolution</li>
+              <li>Flex layout</li>
+              <li>
+                flex-basis property specifies the initial length of a flexible
+                item. The item must have display flex
+              </li>
+            </ul>
+
+            <h5 class="homework">Homework for the week:</h5>
+            <ol>
+              <li>CA1 - Responsive image (slide 10)</li>
+              <li>CA2 - Split flex (slide 11)</li>
+              <li>
+                Creating your github (for developmental blog and assignment)
+              </li>
+              <li>Start working on Assignment 1</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="week05">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapse05"
+            aria-expanded="true"
+            aria-controls="collapse05"
+          >
+            Week 05 Blog
+          </button>
+        </h2>
+        <div
+          id="collapse05"
+          class="accordion-collapse collapse"
+          aria-labelledby="week05"
+          data-bs-parent="#accordionExample"
+        >
+          <div class="accordion-body">
+            <h4>In this week, we learnt JavaScript</h4>
+            <p>
+              Watch the video "JavaScript Essential Training" by Morten
+              Rand-Hendriksen in
+              <a
+                href="https://www.linkedin.com/learning/javascript-essential-training"
+              >
+                https://www.linkedin.com/learning/javascript-essential-training
+              </a>
+            </p>
+            <ol>
+              <li>JavaScript: A Brief Introduction</li>
+              <li>Up and Running with JS</li>
+              <li>Objects</li>
+              <li>Sidebar: String Output</li>
+              <li>DOM</li>
+            </ol>
+            <h5 class="homework">Homework for the week:</h5>
+            <ul>
+              <li>03_07: Building objects</li>
+              <li>03_09: Making methods</li>
+              <li>03_12: Making classes and objects</li>
+              <li>05_04: Traversing the DOM using JavaScript</li>
+              <li>
+                05_08: Adding, removing, or modifying attributes, classes, and
+                inline styles on elements
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--     
     <article>
       <h2>Week 1 Blog</h2>
-      <p>In this week, we learnt various html elements:</p>
-      <ul>
-        <li>html - Defines the root of an HTML document</li>
-        <li>head - Contains metadata/information for the document</li>
-        <li>body - Defines the document's body</li>
-        <li>
-          h1 to h6 - the various heading from biggest to smallest font size
-        </li>
-        <li>p - paragraph</li>
-        <li>em - emphasis the text (italic)</li>
-        <li>strong - bold the text</li>
-        <li>ul - create an unordered list</li>
-        <li>ol - create an ordered list</li>
-        <li>li - define each list element</li>
-        <li>img - include an image</li>
-        <li>a - specify the hyperlink</li>
-        <li>span - define a section of document (inline)</li>
-        <li>
-          div - define a section of document (block), usually used for a bigger
-          section such as a new chapter
-        </li>
-        <li>table - create a table (together with tr, th, td)</li>
-        <li>
-          hr - horizontal rule, also defines a thematic change in the content
-        </li>
-        <li>iframe - defines an inline frame</li>
-      </ul>
-      <p>Homework for the week:</p>
-      <ol>
-        <li>my recipe card</li>
-        <li>group discussion - what makes a good website</li>
-      </ol>
+
     </article>
     <article>
       <h2>Week 4 Blog</h2>
@@ -61,6 +389,6 @@
         src="https://picsum.photos/400/400.jpg"
         alt="Elva dressed as a fairy"
       />
-    </article>
+    </article> -->
   </body>
 </html>
